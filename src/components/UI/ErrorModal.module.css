@@ -1,0 +1,46 @@
+.drop-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 20%;
+  width: 60%;
+  z-index: 11;
+  background-color: aliceblue;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.error-title {
+  background-color: #4f005f;
+  color: whitesmoke;
+  padding: 1rem;
+  font-weight: bold;
+}
+.error-content {
+  color: rgb(58, 57, 57);
+  padding: 1rem;
+}
+.add-user-action {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.add-user-action button {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background-color: rgb(92, 3, 92);
+  color: whitesmoke;
+}
+.add-user-action button:hover {
+  background-color: rgb(198, 148, 198);
+}
